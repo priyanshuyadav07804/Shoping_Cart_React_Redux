@@ -1,0 +1,166 @@
+/* Navbar styles */
+nav {
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 15px 0px;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+}
+
+nav p {
+  font-size: 28px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.icon {
+  width: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 17px;
+  right: 20px;
+  font-size: 22px;
+}
+
+.icon:hover{
+  cursor: pointer;
+  color:aqua;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.row{
+  display: flex;
+  column-gap: 3px;
+  width: 100vw;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.column{
+  display: flex;
+  column-gap: 3px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.single-item{
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 3px 0px;
+  padding: 20px 10px;
+}
+
+.cart-single-item{
+  border-radius: 3px;
+  display: flex;
+  box-shadow: 0px 0px 3px 0px;
+  padding: 40px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img{
+  width: 95%;
+  background: #b5b4b4;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.cart-img{
+  width: 30%;
+  background: #b5b4b4;
+  text-align: center;
+}
+
+.desc{
+  width: 80%;
+}
+
+.btn{
+  width: 200px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(40, 40, 255);
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn:hover{
+  background-color: rgb(4, 167, 255);
+}
+
+.cart-desc{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cart-desc p{
+  color: rgb(255, 0, 98);
+  font-size: 22px;
+}
+
+.cart-btn{
+  cursor: pointer;
+  width: 150px;
+  border-radius: 3px;
+  height: 50px;
+  color: white;
+  background-color: rgb(250, 41, 121);
+  border: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+.cart-btn:hover{
+  background-color: rgb(255, 0, 0);
+}
+
+img{
+  height: 400px;
+}
+
+.cart-img img{
+  height: 300px;
+  object-fit: cover;
+}
+
+p{
+  font-size: 20px;
+  width: fit-content;
+}
+
+span{
+  font-weight: bold;
+  width: fit-content;
+}
+
+del{
+  font-weight: 600;
+  color: rgb(109, 109, 109);
+}
