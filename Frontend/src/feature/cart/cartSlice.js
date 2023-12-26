@@ -24,11 +24,13 @@ const cartSlice = createSlice({
         alert("This item is already in your cart!");
       }
     },
+    
     removeFromCart: (state, { payload }) => {
       state.cartItems = state.cartItems.filter((item) => item.id !== payload);
       state.total -= 1;
     },
   },
+
   extraReducers: (builder) => {
     builder.addCase(getItems.fulfilled, (state, action) => {
       state.items = action.payload;
