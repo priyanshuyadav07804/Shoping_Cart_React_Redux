@@ -1,3 +1,3 @@
-Live Link : https://lucky-moonbeam-584109.netlify.app/
+Live Link : https://shoping-cart-frontend.onrender.com
 
 Backend : https://shoping-cart-react-redux-backend.vercel.app/
