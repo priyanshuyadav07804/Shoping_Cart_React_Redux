@@ -16,4 +16,9 @@ ON CLICKING CART ICON - SHOWING ITEM ADDED IN CART
 
 ![alt text](https://github.com/priyanshuyadav07804/Shoping_Cart_React_Redux/assets/80442935/da92a411-e4e4-49f4-a7d0-d66f729e2ec2)
 
+SHOWING ALERT AS ITEM IS ALREADY PRESENT IN CART
+
+![ALT TEXT](https://github.com/priyanshuyadav07804/Shoping_Cart_React_Redux/assets/80442935/f380f882-539c-444a-bd78-29ff8f0edf58)
+
+
 
