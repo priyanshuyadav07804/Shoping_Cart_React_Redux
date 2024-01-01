@@ -1,4 +1,4 @@
-Live Link : https://shoping-cart-frontend.onrender.com
+Live Link : https://amazone-cart-react-redux.vercel.app/
 
 Backend : https://shoping-cart-react-redux-backend.vercel.app/
 
